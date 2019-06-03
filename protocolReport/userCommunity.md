@@ -10,7 +10,7 @@ Though its practice only touches a small segment of the health sector, the vacci
 ### Data Requirements
 The VaxStats project anticipates these groups will have the following requirements from a vaccination data repository. 
 
-| **User Group**| | **Data Access** | | **Data Format** | | **Data Analysis** |
+| **User Group** | **Data Access** | **Data Format** | **Data Analysis** |
 | --- | --- | --- | --- |
 | Department of Health | API, File download, GUI browsing | Plain text, non-encoded CSV |See full picture of vaccination data for their area |
 | School Administrator | File download, GUI browsing | Open formats, not specific | Track school vaccination data over time, and compare data from surrounding districts |
