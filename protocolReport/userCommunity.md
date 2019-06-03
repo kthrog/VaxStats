@@ -1,4 +1,4 @@
-## User Community
+## VaxStats User Community
 Though its practice only touches a small segment of the health sector, the vaccination of young, school-age children has far-reaching effects on the general population. Failure to vaccinate cannot only be grounds for denial of entry at many public schools, but failure to do so can endanger lives, and even cause premature death, when outbreaks of vaccine-preventable diseases rage out of control. Thus, vaccination and immunization information may be of interest to the following parties:
 - Health officials and medical professionals
 - Education administrators, teachers, students, and parents of students
@@ -14,23 +14,10 @@ The VaxStats project anticipates these groups will have the following requiremen
 | --- | --- | --- | --- |
 | Department of Health | API, File download, GUI browsing | Plain text, non-encoded CSV |See full picture of vaccination data for their area |
 | School Administrator | File download, GUI browsing | Open formats, not specific | Track school vaccination data over time, and compare data from surrounding districts |
-
-Policy Analyst
-API, File download, GUI browsing
-Plain text, non-encoded CSV
-View historical and multi-region data, as well as visualize it 
-Journalist
-File download, GUI browsing
-Open formats, not specific 
-Find data easily, read data descriptions, and visualize data
-Epidemiologist 
-API, File download, GUI browsing
-Plain text, non-encoded CSV
-Load data into statistical processing software and compare with other data
-General Public
-GUI browsing
-Open formats, not specific 
-Find and browse data quickly and easily
+| Policy Analyst | API, File download, GUI browsing | Plain text, non-encoded CSV | View historical and multi-region data, as well as visualize it |
+| Journalist | File download, GUI browsing | Open formats, not specific | Find data easily, read data descriptions, and visualize data |
+| Epidemiologist | API, File download, GUI browsing | Plain text, non-encoded CSV | Load data into statistical processing software and compare with other data |
+| General Public | GUI browsing | Open formats, not specific | Find and browse data quickly and easily |
 
 Data Repository
 Additionally, because many of these user communities may already be accustomed to retrieving local data from an open government data portal, administered by their state, city, or county, we do not anticipate building a distinct repository for this data. Instead, VaxStats would contribute curated data to an already existing and available repository, such as data.wa.gov, which is built on Socrata. Not only does VaxStats believe this would contribute to better findability and accessibility for vaccination data, it would serve as secure hosting and storage for the data in the long term. Using a well-known repository with other types of data also has the added benefit of potentially displaying related datasets to those seeking vaccination data, increasing the likelihood of reuse and encouraging interoperability. 
