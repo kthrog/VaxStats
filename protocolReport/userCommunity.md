@@ -1,4 +1,4 @@
-## R<sup>3</sup> User Community
+## User Community
 Though its practice only touches a small segment of the health sector, the vaccination of young, school-age children has far-reaching effects on the general population. Failure to vaccinate cannot only be grounds for denial of entry at many public schools, but failure to do so can endanger lives, and even cause premature death, when outbreaks of vaccine-preventable diseases rage out of control. Thus, vaccination and immunization information may be of interest to the following parties:
 - Health officials and medical professionals
 - Education administrators, teachers, students, and parents of students
