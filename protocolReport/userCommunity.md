@@ -46,12 +46,9 @@ User stories capture the the goals of the various user communities and stakehold
 | Download data in machine-readable formats | _“As a journalist, I want to analyze a lot of data at once in order to tell a data-driven story about a recent measles outbreak in my area.”_ |
 
 ### Users Depositing Data
-Goal
-User Story
-Transform data into an acceptable format for deposit
-“As a public health official, I want to take aggregated data in PDF format, and produce a raw dataset appropriate for deposit.”
-Protect sensitive data before placing in public repository
-“As a local government employee, I want to ensure that any data released to the repository won’t compromise personally identifiable information of citizens.”
-Know how datasets will be stored, secured, and accessed in the future
-“As a researcher, I want to know if this data is secure, and if it will be available persistently in the future.”
+| **Goal** | **User Story** |
+| --- | --- |
+| Transform data into an acceptable format for deposit | _“As a public health official, I want to take aggregated data in PDF format, and produce a raw dataset appropriate for deposit.”_ |
+| Protect sensitive data before placing in public repository | _“As a local government employee, I want to ensure that any data released to the repository won’t compromise personally identifiable information of citizens.”_ |
+| Know how datasets will be stored, secured, and accessed in the future | _“As a researcher, I want to know if this data is secure, and if it will be available persistently in the future.”_ |
 
