@@ -8,7 +8,7 @@ However, they do have some important differences. While stating that immunizatio
 Understanding the legal differences across states can illuminate the differences in immunization data, and help to construct a more thorough picture of immunization information. 
 
 ### Idaho Immunization Laws
-The Idaho Statutes codify immunization law under Title 39, Health and Safety, and under Chapter 48, Immunization. 
+The Idaho Statutes codify immunization law under Title 39, Health and Safety, and under [Chapter 48, Immunization](https://legislature.idaho.gov/statutesrules/idstat/Title39/T39CH48/). 
 
 Section 39-4801 sets out immunization requirements, which state parents or guardians of all school age children (preschool through twelfth grade) in Idaho, in public, private, and parochial schools, must provide an immunization record to school authorities. This record must be signed by a physician or other licensed health care professional, and must verify the child has received or is receiving required immunizations, or can demonstrate immunity gained through prior contraction of the disease. 
 
@@ -23,20 +23,20 @@ Idaho also requires notification to parents or guardians (39-4804) of children r
 Idaho also has a voluntary immunization registry, explained in Section 39-4803, and a Childhood Immunization Policy Commission meant to increased Idaho immunization rates, explained in Section 39-4805.
 
 ### Oregon Immunization Laws
-The Oregon Revised Statutes (ORS) codify immunization law under Title 36, Public Health and Safety, and under Chapter 433, Disease and Condition Control--specifically under Section 433.267, Immunization of School Children.
+The Oregon Revised Statutes (ORS) codify immunization law under Title 36, Public Health and Safety, and under Chapter 433, Disease and Condition Control--specifically under [Section 433.267](https://www.oregonlegislature.gov/bills_laws/ors/ors433.html), Immunization of School Children.
 
 Section 433.267 states that in any school or children’s facility within the state, all children must submit to the school administrator one of the following: 
 1) A document certifying immunizations the child has received, signed by parent, health practitioner, or health department representative
 2) A document stating child should be exempted from immunizations because of indicated medical diagnosis, signed by physician or health department representative
 3) A document stating that one or more immunizations are being declined, signed by the parent, which must also include:
-- A signature from a healthcare practitioner stating they have reviewed risks and benefits of immunization, consistent with the Centers for Disease Control (CDC), with the parent
-- A certificate showing the parent has completed an approved vaccine educational module 
-- May also include reasons for declining immunization
+..- A signature from a healthcare practitioner stating they have reviewed risks and benefits of immunization, consistent with the Centers for Disease Control (CDC), with the parent
+..- A certificate showing the parent has completed an approved vaccine educational module 
+..- May also include reasons for declining immunization
 
 If a child cannot meet the requirements above, they may not be permitted to attend school. 
 
 ### Washington Immunization Laws
-The Revised Code of Washington (RCW) codifies immunization law under Title 28, which emcompasses education law. Specifically, immunization law is under Title 28A, Common School Provisions, in Chapter 28A.210, Health--Screening and Requirements. 
+The Revised Code of Washington (RCW) codifies immunization law under Title 28, which emcompasses education law. Specifically, immunization law is under Title 28A, Common School Provisions, in [Chapter 28A.210, Health--Screening and Requirements](https://app.leg.wa.gov/RCW/default.aspx?cite=28A.210). 
 
 Washington gives a broad overview of their laws, including that the main purpose of school health laws is to “adopt reasonable rules regarding the presence of persons on or about any school premises who have, or who have been exposed to, contagious diseases deemed by the state board of health as dangerous to the public health” (RCW 28A.210.010). The purpose of the immunization program, specifically, is to “protect the health of the public and individuals by providing a means for the eventual achievement of full immunization of school-age children against certain vaccine-preventable diseases” (RCW 28A.210.060) and has been in effect since September 1, 1979. 
 
