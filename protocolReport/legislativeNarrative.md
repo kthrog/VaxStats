@@ -29,9 +29,9 @@ Section 433.267 states that in any school or children’s facility within the st
 1) A document certifying immunizations the child has received, signed by parent, health practitioner, or health department representative
 2) A document stating child should be exempted from immunizations because of indicated medical diagnosis, signed by physician or health department representative
 3) A document stating that one or more immunizations are being declined, signed by the parent, which must also include:
-⋅⋅* A signature from a healthcare practitioner stating they have reviewed risks and benefits of immunization, consistent with the Centers for Disease Control (CDC), with the parent
-⋅⋅* A certificate showing the parent has completed an approved vaccine educational module 
-⋅⋅* May also include reasons for declining immunization
+- A signature from a healthcare practitioner stating they have reviewed risks and benefits of immunization, consistent with the Centers for Disease Control (CDC), with the parent
+- A certificate showing the parent has completed an approved vaccine educational module 
+- May also include reasons for declining immunization
 
 If a child cannot meet the requirements above, they may not be permitted to attend school. 
 
