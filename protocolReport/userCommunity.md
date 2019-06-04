@@ -52,3 +52,12 @@ User stories capture the the goals of the various user communities and stakehold
 | Protect sensitive data before placing in public repository | _“As a local government employee, I want to ensure that any data released to the repository won’t compromise personally identifiable information of citizens.”_ |
 | Know how datasets will be stored, secured, and accessed in the future | _“As a researcher, I want to know if this data is secure, and if it will be available persistently in the future.”_ |
 
+## Motivations & Future Goals
+While VaxStats strives to be a data-driven source for information about vaccination, the repository also actively advocates for better vaccination data to be made available to the public. Not only does the general public deserve to know immunization and exemption rates for their area, the VaxStats team believes up-to-date, accessible, and reusable data can improve community awareness about the importance of vaccination from vaccine-preventable diseases, and can also serve as an early indicator of disease outbreak risk.
+
+Currently, the Pacific Northwest states of Idaho, Oregon, and Washington release vaccination data in varying levels of quality, but even the best available datasets could stand to be improved.
+
+At a minimum, VaxStats advocates for vaccination data to be:
+- Fully released as raw, non-transformed files
+- Available in machine-readable format
+- Contextualized with descriptions, metadata, and supporting documentation
