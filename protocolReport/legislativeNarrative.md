@@ -23,7 +23,7 @@ Idaho also requires notification to parents or guardians (39-4804) of children r
 Idaho also has a voluntary immunization registry, explained in Section 39-4803, and a Childhood Immunization Policy Commission meant to increased Idaho immunization rates, explained in Section 39-4805.
 
 ### Oregon Immunization Laws
-The Oregon Revised Statutes (ORS) codify immunization law under Title 36, Public Health and Safety, and under Chapter 433, Disease and Condition Control--specifically under [Section 433.267](https://www.oregonlegislature.gov/bills_laws/ors/ors433.html), Immunization of School Children.
+The Oregon Revised Statutes (ORS) codify immunization law under Title 36, Public Health and Safety, and under Chapter 433, Disease and Condition Control--specifically under [Section 433.267, Immunization of School Children](https://www.oregonlegislature.gov/bills_laws/ors/ors433.html).
 
 Section 433.267 states that in any school or children’s facility within the state, all children must submit to the school administrator one of the following: 
 1) A document certifying immunizations the child has received, signed by parent, health practitioner, or health department representative
