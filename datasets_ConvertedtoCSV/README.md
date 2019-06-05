@@ -1,6 +1,14 @@
 # Data Files Converted into CSV files
   
-Files converted from PDF file format and Microsoft Excel book format into Comma Separated Values (.csv) format. PDFs converted using Tabula (https://tabula.technology/) and Microsoft Excel interface. Tutorial can be found in documentation for this repository.  
+Files converted from PDF file format and Microsoft Excel book format into Comma Separated Values (.csv) format. PDFs converted using Tabula (https://tabula.technology/) and Microsoft Excel interface. Additional transformation notes can be found under "Notes" section for file in this document. Tutorial for converting PDF tables into .csv can be found in documentation for this repository.  
+  
+Each Record in README contains:  
+**new file name**  
+Original File- file name of file as extracted from source with original format extension  
+Title- Name of the table as listed in the original file  
+Notes- Notes from original file about the data  
+Processing Notes (optional)- notes about transformation process that go beyond basic use of tabula and excel mentioned above  
+  
   
 ## Idaho:
   
@@ -24,7 +32,7 @@ Revised November 2018
 Original File: 2017 Idaho Reportable Disease Summary.pdf  
 Source: Idaho Department of Health & Welfare: Division of Public Health  
 Title:  State of Idaho Reportable Disease Summary CY 2017  
-Notes:The table includes only diseases with at least one case reported in 2017. For a complete list, please see the Idaho Reportable Disease Statewide Summary. *HIV infection cases presented here are compliant with 2014 CDC case definitions (www.cdc.gov) and include first report of HIV diagnosis, including concurrent AIDS diagnosis, among Idaho residents during the year. This has been referred to as HIV/AIDS diagnosis in other publications. For HIV, county level case counts are suppressed.  
+Notes: The table includes only diseases with at least one case reported in 2017. For a complete list, please see the Idaho Reportable Disease Statewide Summary. *HIV infection cases presented here are compliant with 2014 CDC case definitions (www.cdc.gov) and include first report of HIV diagnosis, including concurrent AIDS diagnosis, among Idaho residents during the year. This has been referred to as HIV/AIDS diagnosis in other publications. For HIV, county level case counts are suppressed.  
   
 Revised November 2018  
   
