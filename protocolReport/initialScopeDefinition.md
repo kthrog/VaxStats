@@ -1,4 +1,5 @@
 **Team members:** Alexis McClimans, Karalyn Ostler, Kaitlin Throgmorton
+
 **Team name:** VaxStats
  
 **Definition, Scope, & Goals:** 
