@@ -3,11 +3,10 @@
 To submit a data proposal to VaxStats, follow these steps:
 1. Prepare your data for deposit. 
 
-⋅⋅⋅If needed, convert your data to an appropriate file format. For help converting data in PDFs to tabular formats, see the Tabula tutorial below, as well as some guidance on R and Python tools to try. 
-
+⋅⋅⋅If needed, convert your data to an appropriate file format. For help converting data in PDFs to tabular formats, see the Tabula tutorial below, as well as some guidance on R and Python tools to try.⋅⋅
 2. Ensure that your data is complete, correct, and well-documented.
 
-⋅⋅⋅The most useful datasets also have: 
+⋅⋅⋅The most useful datasets also have:⋅⋅
 - Data descriptions
 - Data dictionaries
 - Data collection summaries and instrumentation information (if applicable)
@@ -22,22 +21,22 @@ To submit a data proposal to VaxStats, follow these steps:
 
 ### File-Formatting Tips:
 Suggested naming convention for VaxStats submissions: 
-- 'Year_State_Description_LevelofDivision.csv' (ex: '2015_Oregon_RatesAdol_county.csv')
+- `Year_State_Description_LevelofDivision.csv` (ex: `2015_Oregon_RatesAdol_county.csv`)
 
 Other best practices for file naming:
-Use consistent, brief, and descriptive naming convention for all files
-Avoid spaces and special characters (ex: * # % \ / :  ? “ < > | [ ] & $ , . )
-Use three letter file extensions to ensure backwards compatibility (ex: .csv, .txt, etc)
-Do not rely on letter case for identifying different files (ex: datasetA.txt, dataseta.txt)
-Adapted from University of Washington Libraries Data Management Guide
+- Use consistent, brief, and descriptive naming convention for all files.
+- Avoid spaces and special characters (ex: * # % \ / :  ? “ < > | [ ] & $ , . )
+- Use three letter file extensions to ensure backwards compatibility (ex: .csv, .txt, etc)
+- Do not rely on letter case for identifying different files (ex: datasetA.txt, dataseta.txt)
+- Adapted from the University of Washington Libraries [Data Management Guide](http://guides.lib.uw.edu/research/dmg/orgformat)
 
 ### Clean Data Tips:
-Avoid special characters in numerical values (ex: 1000✓ vs 1,000 ✗ or 99.9✓ vs 99.9% ✗)
-Each variable should form a column and each observation should form a row
-Make sure to store only one value per unit
-Create separate files for different types of observations (ex: separate files for data separated by county and data separated by school district)
-Use descriptive and interpretable headers in only the first line of the table
-Only include data values and header in data files and provide extra information (ex: source, footnotes, background) in a separate README file (.txt or .md).
+- Avoid special characters such as commas in numerical values (ex: 1000✓ vs 1,000 ✗ or 99.9✓ vs 99.9% ✗)
+- Each variable should form a column and each observation should form a row
+- Make sure to store only one value per unit
+- Create separate files for different types of observations (ex: separate files for data separated by county and data separated by school district)
+- Use descriptive and interpretable headers in only the first line of the table
+- Only include data values and header in data files and provide extra information (ex: source, footnotes, background) in a separate README file (.txt or .md).
 Ex: 
 County
 Reported_enrollment
