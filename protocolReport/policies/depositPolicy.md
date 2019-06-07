@@ -2,29 +2,36 @@
 
 To submit a data proposal to VaxStats, follow these steps:
 1. Prepare your data for deposit. 
+
 ⋅⋅⋅If needed, convert your data to an appropriate file format. For help converting data in PDFs to tabular formats, see the Tabula tutorial below, as well as some guidance on R and Python tools to try. 
-2. Ensure that your data is complete, correct, and well-documented. 
+
+2. Ensure that your data is complete, correct, and well-documented.
+
 ⋅⋅⋅The most useful datasets also have: 
 - Data descriptions
 - Data dictionaries
 - Data collection summaries and instrumentation information (if applicable)
 - Any associated publications 
 - Any other information that could help contextualize the data for reuse
+
 3. Submit your data and all accompanying documentation, along with the following:
 - Data creator contact information
 - All required metadata fields (read more in our metadata profile)
 - Approval for the data to be licensed CC-0 or CC-BY, or some other license as discussed with the VaxStats team
 - Certification of de-identification 
 
-File-formatting Tips:
-Suggested naming convention for VaxStats submissions: Year_State_Description_LevelofDivision.csv  (ex: 2015_Oregon_RatesAdol_county.csv)
+### File-Formatting Tips:
+Suggested naming convention for VaxStats submissions: 
+- 'Year_State_Description_LevelofDivision.csv' (ex: '2015_Oregon_RatesAdol_county.csv')
+
 Other best practices for file naming:
 Use consistent, brief, and descriptive naming convention for all files
 Avoid spaces and special characters (ex: * # % \ / :  ? “ < > | [ ] & $ , . )
 Use three letter file extensions to ensure backwards compatibility (ex: .csv, .txt, etc)
 Do not rely on letter case for identifying different files (ex: datasetA.txt, dataseta.txt)
 Adapted from University of Washington Libraries Data Management Guide
-Clean Data Tips:
+
+### Clean Data Tips:
 Avoid special characters in numerical values (ex: 1000✓ vs 1,000 ✗ or 99.9✓ vs 99.9% ✗)
 Each variable should form a column and each observation should form a row
 Make sure to store only one value per unit
@@ -42,10 +49,10 @@ Clark
 99
 55.6
 
-Converting Documents to Machine-Readable Formats
+## Converting Documents to Machine-Readable Formats
 If you need to convert data housed in PDF to CSV (or some other machine-readable format), Open Source Tabula may be useful. To assist our VaxStats users, we’ve created the following tutorial on Tabula. 
 
-Tabula Tutorial:
+### Tabula Tutorial:
 Install from https://tabula.technology/
 Open the application; the application will open in your browser.
 Under ‘Import one or more PDFs,’ click ‘Browse’ to choose a PDF from your computer to import.
@@ -61,14 +68,14 @@ Tabula Tips:
 Crop the table as closely as possible on each edge without losing any data. The closer the crop, the more accurate the data export, usually.
 If you have a PDF with multiple tables in it, it may be easier to crop each table individually, and download each as a separate CSV.
 
-Alternative Methods for Converting PDF-locked tables into other file formats:
+### Alternative Methods for Converting PDF-locked Tables into Other File Formats:
 If Tabula isn’t proving sufficient, we’ve also provided links to data document conversion methods using R and Python.
 
-R: pdftools
+**R: pdftools**
 R Documentation: https://ropensci.org/technotes/2018/12/14/pdftools-20/
 Sample code: https://gist.github.com/nniiicc/28488e7193277c7f0bc8feb07091a089
 
-Python: tabula-py
+**Python: tabula-py**
 Tabula-py may work for tables, but it does require Java to work.
 Documentation: https://github.com/chezou/tabula-py
  
