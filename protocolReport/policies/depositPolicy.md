@@ -15,7 +15,7 @@ To submit a data proposal to VaxStats, follow these steps:
 - Approval for the data to be licensed CC-0 or CC-BY, or some other license as discussed with the VaxStats team
 - Certification of de-identification 
 
-To better understand the various data quality tiers, see below. 
+To better understand the various data quality tiers VaxStats accepts (and doesn't accept), [see below](https://github.com/kthrog/VaxStats/blob/master/protocolReport/policies/depositPolicy.md#data-quality-tiers). 
 
 ### File-Formatting Tips
 The recommended naming convention for VaxStats submissions is: 
