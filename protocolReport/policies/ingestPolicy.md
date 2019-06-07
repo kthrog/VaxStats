@@ -3,7 +3,15 @@
 Before proposing a new dataset to VaxStats, review the following data requirements. 
 
 VaxStats data must be: 
-| Requirement | Description | 
+
+| Requirement | Description |
+| ----------- |:-------------:|
+| col 3 is      | right-aligned |
+| col 2 is      | centered      |
+| zebra stripes | are neat      | 
+
+
+| **Requirement** | **Description** | 
 | --------------- | --------------- |
 | *Machine-Readable* | VaxStats data must be machine-readable, and in at least one of the following formats: CSV, XML, RDF, and/or JSON. |
 | *Human-Readable* | VaxStats data must be human-readable, which means it must have adequate descriptions to make it interpretable and reusable. |
