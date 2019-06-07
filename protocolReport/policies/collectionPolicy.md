@@ -8,5 +8,5 @@ We do _not_ accept the following data at this time:
 - Extremely sensitive data containing personally identifiable information about human subjects
 
 Looking for another policy?
-- Ingest Policy
-- Deposity Policy
+- [Ingest Policy](https://github.com/kthrog/VaxStats/edit/master/protocolReport/policies/ingestPolicy.md)
+- [Deposit Policy](https://github.com/kthrog/VaxStats/edit/master/protocolReport/policies/depositPolicy.md)
