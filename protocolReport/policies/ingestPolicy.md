@@ -11,8 +11,8 @@ VaxStats data must be:
 | zebra stripes | are neat      | 
 
 
-| **Requirement** | **Description** | 
-| --------------- | --------------- |
+| Requirement | Description | 
+| --- | --- |
 | *Machine-Readable* | VaxStats data must be machine-readable, and in at least one of the following formats: CSV, XML, RDF, and/or JSON. |
 | *Human-Readable* | VaxStats data must be human-readable, which means it must have adequate descriptions to make it interpretable and reusable. |
 | *Licensed* | VaxStats data will be automatically licensed CC-0, unless another type of license (such as CC-BY) is found to be acceptable. |
