@@ -1,15 +1,15 @@
 ## Deposit Policy
 
 To submit a data proposal to VaxStats, follow these steps:
-1. Prepare your data for deposit. 
-- If needed, convert your data to an appropriate file format. For help converting data in PDFs to tabular formats, see the Tabula tutorial below, as well as some guidance on R and Python tools to try.
-2. Ensure that your data is complete, correct, and well-documented. The most useful datasets also have:
+1. **Prepare your data for deposit.**
+- If needed, convert your data to an appropriate file format. For help converting data in PDFs to tabular formats, see our [machine-readable conversion guidance](https://github.com/kthrog/VaxStats/blob/master/protocolReport/policies/depositPolicy.md#converting-documents-to-machine-readable-formats) below.
+2. **Ensure that your data is complete, correct, and well-documented.** The most useful datasets also have:
 - Data descriptions
 - Data dictionaries
 - Data collection summaries and instrumentation information (if applicable)
 - Any associated publications 
 - Any other information that could help contextualize the data for reuse
-3. Submit your data and all accompanying documentation, along with the following:
+3. **Submit your data and all accompanying documentation,** along with the following:
 - Data creator contact information
 - All required metadata fields (read more in our metadata profile)
 - Approval for the data to be licensed CC-0 or CC-BY, or some other license as discussed with the VaxStats team
@@ -35,13 +35,15 @@ Other best practices for file naming:
 - Only include data values and header in data files and provide extra information (ex: source, footnotes, background) in a separate README file (.txt or .md).
 Ex: 
 
-| County | Reported_enrollment | Percent_immunized |
+| **County** | **Reported_enrollment** | **Percent_immunized** |
 | --- | --- | --- |
 | Adams | 1200 | 80.0 |
 | Clark | 99 | 55.6 |
 
 ## Converting Documents to Machine-Readable Formats
-If you need to convert data housed in PDF to CSV (or some other machine-readable format), [Tabula](https://github.com/tabulapdf/tabula), which is open-source, may be useful. To assist our VaxStats users, we’ve created the following tutorial on Tabula. 
+If you need to convert data housed in PDF to CSV (or some other machine-readable format), [Tabula](https://github.com/tabulapdf/tabula), which is open-source, may be useful. 
+
+To assist our VaxStats users, we’ve created the following tutorial on Tabula. 
 
 ### Tabula Tutorial
 1. Install from https://tabula.technology/
@@ -69,3 +71,7 @@ If Tabula isn’t proving sufficient, we’ve also provided links to data docume
 **Python: tabula-py**
 Tabula-py may work for tables, but it does require Java to work.
 - Documentation: https://github.com/chezou/tabula-py
+
+#### *Looking for another policy?*
+- [Collection Policy](https://github.com/kthrog/VaxStats/blob/master/protocolReport/policies/collectionPolicy.md)
+- [Ingest Policy](https://github.com/kthrog/VaxStats/blob/master/protocolReport/policies/ingestPolicy.md)
