@@ -14,5 +14,5 @@ VaxStats data must be:
 These policies are in place so that VaxStats data adhere to the FAIR principles of findability, accessibility, interoperability, and reusability. In addition to these principles, the VaxStats repository also emphasizes **trust**, in recognition of the sensitive nature of medical vaccination data about children. 
 
 #### *Looking for another policy?*
-- [Collection Policy](https://github.com/kthrog/VaxStats/edit/master/protocolReport/policies/collectionPolicy.md)
-- [Deposit Policy](https://github.com/kthrog/VaxStats/edit/master/protocolReport/policies/depositPolicy.md)
+- [Collection Policy](https://github.com/kthrog/VaxStats/blob/master/protocolReport/policies/collectionPolicy.md)
+- [Deposit Policy](https://github.com/kthrog/VaxStats/blob/master/protocolReport/policies/depositPolicy.md)
