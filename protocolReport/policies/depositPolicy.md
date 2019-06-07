@@ -15,6 +15,8 @@ To submit a data proposal to VaxStats, follow these steps:
 - Approval for the data to be licensed CC-0 or CC-BY, or some other license as discussed with the VaxStats team
 - Certification of de-identification 
 
+To better understand the various data quality tiers, see below. 
+
 ### File-Formatting Tips
 The recommended naming convention for VaxStats submissions is: 
 - `Year_State_Description_LevelofDivision.csv` (ex: `2015_Oregon_RatesAdol_county.csv`)
@@ -39,6 +41,27 @@ Ex:
 | --- | --- | --- |
 | Adams | 1200 | 80.0 |
 | Clark | 99 | 55.6 |
+
+## Data Quality Tiers
+
+**1. Level 1 Data** (e.g. most Idaho and Oregon vaccination datasets)
+- At least some data is publicly available in a human readable format
+- However, this data is not in a machine readable format, may have been normalized or transformed and is no longer raw data, and/or may not have sufficient descriptions or metadata to make it easily understandable. 
+
+_VaxStats Policy on Level 1 Data:_ Not Accepted -- unless curation has been applied to bring data up to at least level 2. 
+
+**2. Level 2 Data**
+- Data is machine readable, human readable. 
+- Data contains some metadata and descriptions -- at least all required metadata fields are complete. 
+- However, this data may not have complete metadata, and may be lacking in complete provenance information. It may also be harder to contextualize, and may be missing data dictionaries or other supporting documentation. 
+_VaxStats Policy on Level 2 Data:_ Accepted -- but may be subject to further curation to improve findability and reuse. 
+
+**3. Level 3 Data** (e.g., most Washington vaccination datasets)
+- Data is machine readable, human readable.
+- Dataset comes with extensive provenance / administrative metadata: all required and recommended metadata fields are complete.
+- Data is available in multiple accessible formats. 
+- Datasets have data-dictionaries and detailed column descriptions.
+_VaxStats Policy on Level 3 Data:_ Accepted.
 
 ## Converting Documents to Machine-Readable Formats
 If you need to convert data housed in PDF to CSV (or some other machine-readable format), [Tabula](https://github.com/tabulapdf/tabula), which is open-source, may be useful. 
