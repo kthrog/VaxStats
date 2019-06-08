@@ -1,0 +1,108 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "id": "link to schema location in repo/distribution.json",
+    "title": "Vaccination Deposit Dataset",
+    "type": "object",
+    "description": "This container describes a catalog of datasets.",
+    "required": [
+        "title",
+        "format",
+        "issued",
+        "license",
+        "accessRights"
+    ],
+    "properties": {
+        "title": {
+            "title": "Title",
+            "description": "Title or name given to the distribution.",
+            "type": "string",
+            "minLength": 1
+        },
+        "descrption": {
+            "title": "Description",
+            "description": "Description of the distribution.",
+            "anyOf": [
+                {
+                    "type": "string",
+                    "minLength": 3
+                },
+                {"type": "null"}
+            ]
+        },
+        "extent": {
+            "title": "Extent",
+            "description": "The size or duration of the resource.",
+            "type": "string"
+        },
+        "format": {
+            "title": "Format",
+            "description": "The material or physical carrier of the distribution.",
+            "anyOf": [
+                {
+                    "type": "string",
+                    "minLength": 3
+                },
+                {"type": "null"}
+            ]
+        },
+        "issued": {
+            "title": "Date issued",
+            "description": "Date of formal issuance (e.g., publication) of the distribution."
+        },
+        "modified": {
+            "title": "Date modified",
+            "description": "Date on which the distrubution was changed, updated, or modified.",
+            "anyOf": [
+                {
+                    "type": "string",
+                    "minLength": 3
+                },
+                {"type": "null"}
+            ]
+        },
+        "license": {
+            "title": "License",
+            "description": "A legal document giving official permission to do something with the distribution.",
+            "type": "string",
+            "format": "uri"
+        },
+        "accessRights": {
+            "title": "Access rights",
+            "description": "Information about who can access the distribution or an indication of its security status.",
+            "anyOf": [
+                {
+                    "type": "string",
+                    "minLength": 3
+                },
+                {
+                    "type": "string",
+                    "format": "uri"
+                }
+            ]
+        },
+        "accessURL": {
+            "title": "",
+            "description": "",
+            "anyOf": [
+                {
+                    "type": "string",
+                    "format": "uri",
+                    "minLength": 3
+                },
+                {"type": "null"}
+            ]
+        },
+        "downloadURL": {
+            "title": "",
+            "description": "",
+            "anyOf": [
+                {
+                    "type": "string",
+                    "format": "uri",
+                    "minLength": 3
+                },
+                {"type": "null"}
+            ]
+        }
+    }
+}

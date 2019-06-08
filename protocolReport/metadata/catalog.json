@@ -1,0 +1,73 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "id": "link to schema location in repo/catalog.json",
+    "title": "Vaccination Deposit Catalog",
+    "type": "object",
+    "description": "This container describes a catalog of datasets.",
+    "required": [
+        "title",
+        "description",
+        "publisher",
+        "accessRights",
+        "license",
+        "langauge",
+        "dataset"
+    ],
+    "properties": {
+        "title": {
+            "title": "Title",
+            "description": "A name given to the catalog.",
+            "type": "string",
+            "minLength": 1
+        },
+        "descrption": {
+            "title": "Description",
+            "description": "A name given to the catalog.",
+            "type": "string",
+            "minLength": 1
+        },
+        "conformsTo": {
+            "title": "Data standard",
+            "description": "An established standard or schema to which the described dataset conforms.",
+            "anyOf": [
+                {
+                    "type": "string",
+                    "format": "uri"
+                },
+                {"type": "null"}
+            ]
+        },
+        "publisher": {
+            "title": "Publisher",
+            "description": "The entity responsible for making the catalog online.",
+            "type": "string",
+            "minLength": 1
+        },
+        "accessRights": {
+            "title": "Access Rights",
+            "description": "",
+            "type": "string",
+            "minLength": 1
+        },
+        "license": {
+            "title": "License",
+            "description": "This links to the license document under which the catalog is made available and not the datasets. Even if the license of the catalog applies to all of its datasets and distributions, it should be replicated on each distribution.",
+            "type": "string",
+            "format": "uri"
+        },
+        "langauge": {
+            "title": "Language",
+            "description": "The language of the catalog.",
+            "type": "string",
+            "minLength": 1
+        },
+        "dataset": {
+            "title": "Dataset",
+            "type": "array",
+            "items": {
+                "$ref": "dataset.json",
+                "minItems": 1
+            }
+        }
+    }
+}

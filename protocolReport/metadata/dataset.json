@@ -1,0 +1,183 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "id": "link to schema location in repo/dataset.json",
+    "title": "Vaccination Deposit Dataset",
+    "type": "object",
+    "description": "This container describes a dataset.",
+    "required": [
+        "title",
+        "identifier",
+        "contactPoint",
+        "description",
+        "language",
+        "keyword",
+        "publisher",
+        "issued",
+        "distribution"
+    ],
+    "properties": {
+        "@type": {
+            "title": "Metadata Context",
+            "description": "IRI for the JSON-LD data type.",
+            "enum": ["dcat:Dataset"]
+        },
+        "title": {
+            "title": "Title",
+            "description": "A name given to the catalog.",
+            "type": "string",
+            "minLength": 1
+        },
+        "identifier": {
+            "title": "Identifier",
+            "description": "An unambiguous reference to the resource within a given context.",
+            "type": "string",
+            "minLength": 1
+        },
+        "contactPoint": {
+            "type": "array",
+            "items": {"$ref": "vcard.json"}
+        },
+        "descrption": {
+            "title": "Description",
+            "description": "A name given to the catalog.",
+            "type": "string",
+            "minLength": 3
+        },
+        "language": {
+            "title": "Language",
+            "description": "The language of the catalog.",
+            "type": "string",
+            "minLength": 3
+        },
+        "conformsTo": {
+            "title": "Data standard",
+            "description": "An established standard or schema to which the described dataset conforms.",
+            "anyOf": [
+                {
+                    "type": "string",
+                    "format": "uri"
+                },
+                {"type": "null"}
+            ]
+        },
+        "keyword": {
+            "type": "array",
+            "enum": [
+                "MMR (VACCINE)",
+                "Measles virus",
+                "Mumps virus",
+                "Rubella Virus",
+                "DT (VACCINE)",
+                "DTaP (VACCINE)",
+                "DTP (VACCINE)",
+                "Hep A",
+                "Hep B",
+                "HiB",
+                "HPV (VACCINE)",
+                "Meningococcal",
+                "Immunization",
+                "Vaccination",
+                "NIS",
+                "PCV ",
+                "PV",
+                "Tdap",
+                "Varicella",
+                "Varicella (VACCINE)",
+                "Polio",
+                "IPV (VACCINE)",
+                "Diphtheria",
+                "Tetanus",
+                "Pertussis"
+            ],
+            "minItems": 1
+        },
+        "publisher": {
+            "title": "Publisher",
+            "description": "The entity responsible for making the catalog online.",
+            "type": "string",
+            "minLength": 1
+        },
+        "issued": {
+            "title": "Issued",
+            "description": "Date of formal issuance (e.g., publication) of the dataset.",
+            "type": "string",
+            "format": "date-time"
+        },
+        "modified": {
+            "title": "Modified",
+            "description": "Date on which the dataset was changed, modified, or updated.",
+            "anyOf": [
+                {
+                    "type": "string",
+                    "format": "date-time"
+                },
+                {"type": "null"}
+            ]
+        },
+        "accrualPeriodicity": {
+            "title": "Accrual periodicity",
+            "description": "The frequency at which dataset is published.",
+            "anyOf": [
+                {
+                    "type": "string",
+                    "enum": [
+                        "monthly",
+                        "yearly",
+                        "irregular",
+                        "annually"
+                    ]
+                },
+                {"type": "null"}
+            ]
+        },
+        "describedBy": {
+            "title": "Described by",
+            "description": "URL to data dictionary for the dataset.",
+            "anyOf": [
+                {
+                    "type": "string",
+                    "format": "uri"
+                },
+                {"type": "null"}
+            ]
+        },
+        "spatial": {
+            "title": "Spatial coverage",
+            "description": "Spatial Coverage of the daataset. If the content covers multiple geographic areas, record encompassing area.",
+            "anyOf": [
+                {"type": "string"},
+                {"type": "null"}
+            ]
+        },
+        "temporal": {
+            "title": "Temporal coverage",
+            "description": "Temporal Coverage of dataset. If the content covers mutliple time epriods, record an encompassing period.",
+            "anyOf": [
+                {"type": "string"},
+                {"type": "null"}
+            ]
+        },
+        "relation": {
+            "title": "Relation",
+            "description": "A related resource of the dataset.",
+            "anyOf": [
+                {
+                    "type": "string",
+                    "format": "uri"
+                },
+                {"type": "null"}
+            ]
+        },
+        "distribution": {
+            "title": "Distribution",
+            "description": "A container for the array of Distribution objects",
+            "type": "array",
+            "items": [
+                {
+                    "$ref": "distribution.json",
+                    "minItems": 1
+                }
+            ]
+        }
+    }
+}

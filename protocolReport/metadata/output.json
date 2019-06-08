@@ -1,0 +1,39 @@
+{
+    "title": "Immunization coverage for kindergartners Washington State",
+    "description": "Immunization datasets published by the Washington State Department of Health.",
+    "publisher": "Washington State Department of Health, Office of Immunization and Child Profile.",
+    "accessRights": "The access rights for this dataset is unspecified",
+    "license": "The license for this dataset is unspecified",
+    "langauge": "English",
+    "dataset": [
+        {
+            "title": "All students, kindergarten through 12th grade, immunization data by school, 2015-2016",
+            "identifier": "DOH 348-550",
+            "contactPoint": [
+                {
+                    "@type": "vcard:Contact",
+                    "name": "Eavey, Joanna",
+                    "email": "ej@sampleemail.org"
+                }
+            ],
+            "description": "Washington student immunization rates by school for 2015-2016",
+            "language": "English",
+            "keyword": ["immunization, HepB, dtap, polio, mmr, varicella"],
+            "publisher": "Washington State Department of Health",
+            "issued": "2016-04-13",
+            "distribution": [
+                {
+                    "title": "All students, kindergarten through 12th grade, immunization data by school, 2015-2016",
+                    "description": "Washington student immunization rates by school for 2015-2016",
+                    "format": "API",
+                    "issued": "2016-04-13",
+                    "modified": "2016-04-13",
+                    "license": "The license for this dataset is unspecified",
+                    "accessRights": "The access rights for this dataset is unspecified",
+                    "accessURL": "https://dev.socrata.com/foundry/data.wa.gov/ie96-cgrn",
+                    "downloadURL": "https://data.wa.gov/resource/ie96-cgrn.json"
+                }
+            ]
+        }
+    ]
+}
