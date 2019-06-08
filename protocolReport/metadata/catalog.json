@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "id": "link to schema location in repo/catalog.json",
+    "id": "https://github.com/kthrog/VaxStats/blob/master/protocolReport/metadata/catalog.json",
     "title": "Vaccination Deposit Catalog",
     "type": "object",
     "description": "This container describes a catalog of datasets.",
