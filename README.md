@@ -9,7 +9,7 @@
 3. [Metadata](https://github.com/kthrog/VaxStats/tree/master/protocolReport/metadata)
 4. [Original Data](https://github.com/kthrog/VaxStats/tree/master/datasets_OriginalFromSource)
 5. [Curated Data](https://github.com/kthrog/VaxStats/tree/master/datasets_ConvertedtoCSV)
-- [Documentation] (https://github.com/kthrog/VaxStats/blob/master/datasets_ConvertedtoCSV/README.md) of conversion + curation work. 
+- [Documentation](https://github.com/kthrog/VaxStats/blob/master/datasets_ConvertedtoCSV/README.md) of conversion + curation work. 
 
 
 
