@@ -1,6 +1,7 @@
 ![VaxStats logo with accompanying text 'an open vaccination data repository for the PNW'][logo]
 
 # VaxStats Table of Contents
+To view the full protocol report for this repository, view the [VaxStats Gitbook](https://vaxstats.gitbook.io/vax-stats/). 
 1. [User Community](https://github.com/kthrog/VaxStats/tree/master/protocolReport/userCommunity)
 2. [Policies](https://github.com/kthrog/VaxStats/tree/master/protocolReport/policies)
 - [Collection Policy](https://github.com/kthrog/VaxStats/blob/master/protocolReport/policies/collectionPolicy.md)
