@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "id": "local url for vxstats/vcard.json",
+    "id": "https://github.com/kthrog/VaxStats/edit/master/protocolReport/metadata/vcard.json",
     "title": "Contact Point",
     "description": "Dataset Contact Point as a vCard object",
     "type": "object",
