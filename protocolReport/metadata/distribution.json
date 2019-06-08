@@ -1,9 +1,9 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
     "id": "https://github.com/kthrog/VaxStats/blob/master/protocolReport/metadata/distribution.json",
-    "title": "Vaccination Deposit Dataset",
+    "title": "Vaccination Deposit Dataset Distribution",
     "type": "object",
-    "description": "This container describes a catalog of datasets.",
+    "description": "This container describes a dataset distribution.",
     "required": [
         "title",
         "format",
